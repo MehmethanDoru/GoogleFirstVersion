@@ -1,0 +1,43 @@
+body {
+    display: block;
+    margin: 8px;
+}
+
+.block {
+    border: 1px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 3px;
+}
+
+.second-block-line {
+    border: 2px;
+    border-style: inherit;
+    display: flex;
+}
+
+.card-1 {
+    width: 37%;
+    margin-right: 2px;
+    top: 50%;
+    bottom: 50%;
+    flex-direction: column;
+    height: 90px;
+
+}
+
+.card-2 {
+    margin-right: 2px;
+    width: 19%;
+    height: 90px;
+    font-size: 13px;
+}
+
+.card-3 {
+    width: 44%;
+    height: 90px;
+    font-size: 13px;
+    flex-direction: column;
+
+}
+
